@@ -1,1 +1,447 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <link rel="stylesheet" type="text/css" href="myCss/style.css">
+
+  <!--mdbootstrap-->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <link rel='stylesheet' id='wsl-widget-css'
+    href='https://mdbcdn.b-cdn.net/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.6.2'
+    type='text/css' media='all' />
+  <link rel='stylesheet' id='compiled.css-css'
+    href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/compiled-4.19.2.min.css?ver=4.19.2'
+    type='text/css' media='all' />
+
+  <!--plugin file-->
+  <link rel="stylesheet" href="mdb/css/addons/datatables.min.css">
+
+
+</head>
+
+<body>
+  <!--******************************************************************Navigation Bar********************************************************************-->
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="navbar">
+    <div class="container-fluid">
+
+      <form class="d-flex ml-auto mt-3" role="search"> <!-- Search bar aligned to the left -->
+        <input class="form-control me-2" type="search" placeholder="ابحث" aria-label="Search">
+
+        <button class="btn  custom-search-button " id="searchButton" type="submit">البحث</button>
+      </form>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-flex justify-content-between w-75">
+          <!-- Hyperlinks aligned to the right -->
+          <li class="nav-item mt-5">
+            <a class="nav-link active" aria-current="page" href="#"><strong>تواصل معنا</strong></a>
+          </li>
+          <li class="nav-item mt-5">
+            <a class="nav-link" href="#gallery"><strong>أقسام المركز</strong></a>
+          </li>
+          <li class="nav-item dropdown mt-5">
+            <a class="nav-link dropdown-toggle mb-3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <strong>الجهات المعنية بالمشروع</strong>
+            </a>
+            <ul class="dropdown-menu mb-5">
+              <li><a class="dropdown-item" href="#university"><strong>جامعة جازان</strong></a></li>
+              <li><a class="dropdown-item" href="#ministry"><strong>وزارة الثقافة</strong></a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#designer"><strong>المصممة المسؤولة</strong></a></li>
+            </ul>
+          </li>
+          <li class="nav-item mt-5">
+            <a class="nav-link" href="#about"><strong>عنا</strong></a>
+          </li>
+
+          <li class="nav-item mt-2">
+            <div class="navbar-brand mr-auto ml-auto "> <!-- Logo aligned to the right -->
+              <img src="images/logo.png" alt="QAFILA" width="100px" height="100px">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ******************************************************************End Navigation Bar*********************************************-->
+
+  <!-- ******************************************************************Triangles with video*********************************************-->
+  <!-- first triangles line ***********-->
+  <div class="container-fluid line-of-triangles" id="line-of-triangles">
+    <div class="row justify-content-around ">
+
+
+      <div class="triangle col-md-3 col-xs-12" id="triangle-1"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-2"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-3"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-4"></div>
+    </div>
+  </div>
+  <!--end of first triangles line*******-->
+
+
+  <!-- video***************************-->
+  <!--Carousel Wrapper-->
+  <div class="">
+
+    <div id="video " class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Slides-->
+      <div class="carousel-inner  " role="listbox">
+        <div class="carousel-item active">
+          <video class="video-fluid w-100" autoplay loop muted controls>
+            <source src="Video/culture.mp4" type="video/mp4" />
+            <source src="Video/culture.mp4" type="audio/mpeg" />
+          </video>
+        </div>
+      </div>
+      <!--/.Slides-->
+    </div>
+    <figure class="quote-container">
+      <blockquote class="blockquote">
+        <p> المملكة تتقدم بخطى ثابتة في برنامج ضخم يهدف إلى التطور والتغيير.. وطموحنا لا حدود له </p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        ولي العهد محمد بن سلمان <cite title="Source Title"></cite>
+      </figcaption>
+    </figure>
+    <!--Carousel Wrapper-->
+  </div>
+  <!--end of video********************-->
+
+  <!-- start of second trianles line***-->
+  <div class="container-fluid line-of-triangles-2" id="line-of-triangles">
+    <div class="row justify-content-around ">
+
+
+      <div class="triangle-2 col-md-3 col-xs-12" id="triangle-5"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-6"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-7"></div>
+      <div class="triangle col-md-3 col-xs-12" id="triangle-8"></div>
+    </div>
+  </div>
+  <!--end of second triangles line******-->
+
+
+  <!-- ******************************************************************About*********************************************-->
+  <h1 class="h1" id="about">نبذة عنــــا</h1>
+
+  <!-- put the text and image side by side using the grid system of bootstrap-->
+
+  <div class="container-fluid" id="container-about">
+    <div class="row justify-content-around mr-2 ml-1 ">
+
+      <div class="col-md-4 col-xs-12 mt-3 view overlay zoom">
+        <img src="images/bild1.jpg" class=" rounded" id="bild1" alt="الثقافة السعودية">
+      </div>
+
+
+      <div class="col-md-4 col-xs-12 mt-3 view overlay zoom">
+        <img src="images/bild2.jpg" class=" rounded " id="bild1" alt="الثقافة السعودية">
+      </div>
+
+
+      <div class="col-md-4 col-xs-12">
+
+
+        <p class="lead text-right"> <strong>مشروع قافلة يعنى بإنشاء مركز للفنون و الثقافة في المملكة العربية السعودية,
+            يعد المشروع تجسيدا لرؤية 2030, حيث يسعى لتعزيز مفهوم الفنون و الثقافة في المجتمع.
+            تسمية المركز مستخلصة من طريقة أجدادنا في نقل المعارف و العلوم في قديم الزمان, حيث أن القافلة هي الرمز
+            التعبيري عن نقل هذه المعارف وأن طريق هذه القافلة لم ينتهي بعد ويأتي المركز ليكمل مسيرتها .
+            إن جوهر قافلة مبني على الإيمان الراسخ بأن الفنون و الثقافة هما محور و ركيزة أساسية لتطوير أي مجتمع بما في
+            ذلك مجتمعنا السعودي.
+          </strong></p>
+        <br><br>
+        <p class="lead text-right "> <strong>في هذه المقدمة سيتم طرح نظرة عامة عن أهمية المشروع وأهدافه.
+            يأتي مشروع قافلة كاستجابة للتحول الثقافي و الاجتماعي الجاري في المملكة كما و يهدف لخلق مركز متعدد التوجهات
+            يجمع بين الفنون و الثقافة, يعتبر قافلة مشاركة مجتمعية داعمة لتوجهات وزارة الثقافة بإنشاء منصة للشباب السعودي
+            المبدع للتعبير عن أنفسهم و أفكارهم من خلال أعمالهم الفنية, حيث يظهرون مهاراتهم التي صقلوها و نمّوها, تكون
+            بذلك تلك المنصة وسيلة لتعزيز التفاعل و التبادل الثقافي و الفني كما و دعم الفنانين المحليين و الهواة
+            الطامحين.
+            .يساهم المشروع في تشكيل و بناء مستقبل ثقافي و فني مشرق </strong></p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!--****************************************************************** End About*********************************************-->
+
+  <!-- ******************************************************************Start Gallery*********************************************-->
+
+
+  <div class="container page-top" id=gallery>
+
+
+
+    <div class="row">
+
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/occupational programm.png" class="fancybox" rel="ligthbox">
+          <img src="images/occupational programm.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img1.png" class="fancybox" rel="ligthbox">
+          <img src="images/img1.png" class="zoom img-fluid" alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img2.png" class="fancybox" rel="ligthbox">
+          <img src="images/img2.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img3.png" class="fancybox" rel="ligthbox">
+          <img src="images/img3.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img4.png" class="fancybox" rel="ligthbox">
+          <img src="images/img4.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img5.png" class="fancybox" rel="ligthbox">
+          <img src="images/img5.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img6.png" class="fancybox" rel="ligthbox">
+          <img src="images/img6.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <a href="images/img7.png" class="fancybox" rel="ligthbox">
+          <img src="images/img7.png" class="zoom img-fluid " alt="">
+          <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+        </a>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+  <!-- ******************************************************************End Gallery*********************************************-->
+
+  <!-- ******************************************************************Start Info section*********************************************-->
+
+  <div class="d-flex flex-row" id="info-section">
+    <div class="card col-lg-3 col-md-4 col-xs-6 mx-auto" id="university">
+      <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="images/university.png" class="img-fluid" />
+        <a href="#">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">جامعة جازان</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="https://www.jazanu.edu.sa/ar" class="btn btn-primary" data-mdb-ripple-init>المزيد</a>
+      </div>
+    </div>
+
+
+    <div class="card col-lg-3 col-md-4 col-xs-6 mx-auto" id="ministry">
+      <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="images/ministry.png" class="img-fluid" />
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">وزارة الثقافة</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="https://www.moc.gov.sa/" class="btn btn-primary" data-mdb-ripple-init>المزيد</a>
+      </div>
+    </div>
+
+
+    <div class="card col-lg-3 col-md-4 col-xs-6 mx-auto" id="designer">
+      <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
+        <a href="#!">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">المصممة المسؤولة</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#!" class="btn btn-primary" data-mdb-ripple-init>المزيد</a>
+      </div>
+    </div>
+  </div>
+  <!-- ******************************************************************End of  Info section*********************************************-->
+
+  <!-- ******************************************************************Start footer*********************************************-->
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #45526e" id="footer">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-between">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto" id="legal">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              إبراء ذمة
+            </h6>
+            <p class="rtl" id="legaltext">
+
+              نأكد بموجب هذا البيان أن صفحة الويب المخصصة لمشروع قافلة، التي تم إنشاؤها بواسطة الطالبة الجامعية رغد عبده
+              سنكر، تهدف فقط إلى توضيح فكرة المشروع الجامعي. نؤكد أيضًا أن جميع الصور والمواد المستخدمة في الصفحة تعود
+              إلى أصحابها الأصليين ويتم استخدامها لأغراض توضيحية فقط.
+
+              نؤكد بأننا لا نتحمل أي مسؤولية قانونية أو معنوية عن الاستخدام الخاطئ لأي مواد أو محتوى يمكن أن ينشر على
+              صفحة الويب المذكورة.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3  text-end" id="contact">
+            <h6 class="text-uppercase mb-4 font-weight-bold">معلومات التواصل</h6>
+            <p><i class="fas fa-home mr-3"></i> جازان, جامعة جازان</p>
+            <p><i class="fas fa-envelope mr-3"></i> abosor209@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +966 53 839 4788</p>
+            <p><i class="fas fa-print mr-3"></i> +966 17 323 0029</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 كل الحقوق محفوظة لأصحابها الشرعيين
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/JazanUniversity/" class="btn btn-outline-light btn-floating m-1"
+              class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/jazanuniversity" class="btn btn-outline-light btn-floating m-1"
+              class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+
+
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/jazan.university/" class="btn btn-outline-light btn-floating m-1"
+              class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- End of .container -->
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <!--mdbootstrap-->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umpd/poper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+  <!--plugin file-->
+  <script src="mdb/js/addons/datatables.min.js"></script>
+</body>
+
+</html>
