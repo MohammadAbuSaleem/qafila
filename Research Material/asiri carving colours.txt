@@ -1,0 +1,6 @@
+green: #0d5c3b
+blue: #4589ae
+red-orange: #c96648
+yellow:#dda030
+darker blue: #195490
+redder: #ad2f30

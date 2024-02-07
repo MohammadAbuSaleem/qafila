@@ -1,0 +1,10 @@
+## Bing
+Sure, here are some websites that are similar to Alvaro Trigo's blog on CSS page transitions:
+- Freefrontend.com: This website offers free hand-picked HTML, CSS, and JavaScript (jQuery, React, Vue) code examples, tutorials, and articles.
+- Thepetedesign.com: A portfolio by a visual designer specialized in minimal UI and functional UX design and development for startups.
+- Codemyui.com: This website provides a handpicked collection of web design & UI inspiration with code snippets.
+- Webflow.com: This platform allows you to create professional, custom websites in a completely visual canvas with no code.
+- Gscode.in: This website provides a list of the top 40 best CSS card design examples from CodePen.
+- Codewithrandom.com: This website offers 15+ handpicked CSS Page Transitions ready to use.
+- Medium.com: This article on Medium discusses the art of CSS transitions.
+Remember, while these websites provide great resources, it's important to understand the code you're using and how it impacts your website's performance and user experience. Happy coding! 🚀
